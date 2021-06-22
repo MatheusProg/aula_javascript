@@ -1,4 +1,34 @@
+function clicou() {
+    document.getElementById("gratidao").innerHTML = "Obrigado por clicar!";
+    //console.log(document.getElementById("gratidao"))
+    //alert("Obrigado por clicar!")
+}
 
+function redirecionar() {
+  window.open("https://google.com")
+  //window.location.href = "https://google.com"
+}
+
+function trocar(elemento) {
+  //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse"
+  elemento.innerHTML = "Obrigado por passar o mouse"
+  //alert("Trocar texto")
+}
+
+function voltar(elemento) {
+  //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui"
+  elemento.innerHTML = "Passe o mouse aqui"
+}
+
+function load() {
+  alert("page load")
+}
+
+function funcaoChange(elemento) {
+  console.log(elemento.value)
+}
+
+/*
 function soma(n1, n2){
   return n1 + n2
 }
@@ -21,6 +51,7 @@ validaIdade(idade)
 console.log(validar)
 
 //alert(soma(5, 10))
+*/
 
 /*
 var d = new Date();
@@ -44,7 +75,6 @@ while (count <= 5) {
   count++
 }
 */
-
 
 /*
 var idade = prompt("Qual sua idade? ")
@@ -75,7 +105,6 @@ alert(fruta.cor)
 //console.log(lista)
 //console.log(lista.toString())
 //console.log(lista.join(" - "))
-
 
 //var nome = "Matheus Dias"
 //var n1 = 23
